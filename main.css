@@ -1,0 +1,30 @@
+#board {
+  margin-top: 10px;
+}
+
+h1 {
+	font-family: Lobster;
+}
+
+.box {
+  border: 1px solid black;
+  height: 150px;
+  padding-top: 20px;
+}
+
+/*.box {
+	vertical-align: middle;
+}*/
+
+/*What I was trying to achieve was for the onClick player icons within the
+individual boxes to be relative-position-centered when placed. Couldn't figure it out,
+so went with simply padding the top of the box :'(   */
+
+
+
+.btn {
+	margin-top: 10px;
+}
+
+/*I tried to get the reset gif to only animate and run once per click, but
+/*none of the solutions I found on the interwebs panned out unfortunately.*/
