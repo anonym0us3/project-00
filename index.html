@@ -14,50 +14,68 @@
   <link rel="stylesheet" href="main.css">
   <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
+  <!--  Tried to link href to the favicon stored locally in my /img/ folder but no dice, so uploaded to imgur instead--> 
   <link href="http://i.imgur.com/l2c62i4.png" rel="icon" type="image/png" />
 
   <title>Game Alpha Wolf</title>
 </head> 
-<body>
 
-  <div class="container text-center">
-    <div class="row">
+<!-- link href=~/img/stark_background.png
+<body background="http://i.imgur.com/o7AUq5r.jpg" id="background"> -->
+  
+  <div class="container text-center" id="bodyContent">
+    <div class="header">
       <div class="col-md-12">
-        <h1>Stark Survival</h1>
+        <h1>Stark</h1>
         <hr>
       </div>
     </div>
 
+    <h2>Help a brother survive!</h2>
+
     <div class="row"> 
 
       <!-- a column represents our game board -->
-      <!-- the `offset` class helps us center the board -->
-      <div class="col-md-6 col-md-offset-3" id="board">
+      <div class="col-md-12" id="board">
 
         <!-- you can nest rows inside of columns! -->
         <!-- our board has 3 rows, each with 3 columns inside -->
         <div class="row" id="row">
-          <div class="col-xs-4 box" id="1"></div>
-          <div class="col-xs-4 box" id="2"></div>
-          <div class="col-xs-4 box" id="3"></div>
+          <p>Player 1</p>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
         </div>
 
+        <p>Player 2</p>
         <div class="row" id="row">
-          <div class="col-xs-4 box" id="4"></div>
-          <div class="col-xs-4 box" id="5"></div>
-          <div class="col-xs-4 box" id="6"></div>
-        </div>
-
-        <div class="row" id="row">
-          <div class="col-xs-4 box" id="7"></div>
-          <div class="col-xs-4 box" id="8"></div>
-          <div class="col-xs-4 box" id="9"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
+          <div class="col-xs-1 box" id="1"></div>
         </div>
       </div>
     </div>
 
     <div class="btn">
-      <img src = "http://i.imgur.com/HmyRKBU.gif">
+      <button>Reset</button>
     </div>
 
   </div>
@@ -70,6 +88,3 @@
 
 </body>
 </html>
-
-
-<!-- http://i.imgur.com/DZtKcvZ.jpg - static 'splosion -->
