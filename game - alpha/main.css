@@ -1,0 +1,30 @@
+#board {
+  margin-top: 10px;
+}
+
+h1 {
+	font-family: Lobster;
+	font-size: 50px;
+}
+
+h2 {
+	margin: 50px 0px 50px 0px;
+
+}
+
+.box {
+  border: 1px solid black;
+  height: 100px;
+  padding-top: 20px;
+}
+
+.btn {
+	margin-top: 25px;
+}
+
+p {
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+	text-align: left;
+}
