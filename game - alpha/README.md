@@ -12,14 +12,12 @@ Technologies Used
 Existing Features
 
 * 2 player racing
-* non-functional background
-* non-100%-functional win conditions
+* background image
 * reset button
 
 Planned Features
 
-* I'd like to make my background image work as I want it to
-* Would also like to add code preventing a player from being able to move after another player has won
+* I'd like to make my background image work as I want it to (want background to be opaque without affecting foreground)
 
 Screenshot (optional)
 
