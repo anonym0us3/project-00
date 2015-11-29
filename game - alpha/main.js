@@ -41,6 +41,7 @@ $(window).keydown(function (e) {
 });
 
   //Win logic: when p1's or p2's location reaches the end of their row, winner is declared
+  //Cannot figure out how to prevent 2nd player from moving after 1st player has won
 $(window).keydown(function (e) {
 	if(p1Location === 11) {
 		$('.winBox').show();
