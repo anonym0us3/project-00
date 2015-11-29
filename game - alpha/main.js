@@ -41,27 +41,33 @@ $(window).keydown(function (e) {
 });
 
   //Win logic: when p1's or p2's location reaches the end of their row, winner is declared
-  //Cannot figure out how to prevent 2nd player from moving after 1st player has won
 $(window).keydown(function (e) {
 	if(p1Location === 11) {
 		$('.winBox').show();
-		$('.winBox').text("Bran survives!");
+		$('.winBox').text("You saved Bran!");
+		alert("Bran survives!");
+		gameReset();
 	} else if (p2Location === 31) {
 		$('.winBox').show();
-		$('.winBox').text("Rickon lives!");
+		$('.winBox').text("Rickon managed not to die, well done!");
+		alert("Rickon lives!");
+		gameReset();
 	}
 });
 
 //'Reset button logic: sets starting positions back to initial values , clears board of ' +
 //'player icons, resets players character text/icons (if applicable) to starting positions'
-$('.btn').on("click", function handleClick() {
+function gameReset() {
 	p1Location = 0;
 	p2Location = 20;
 	$('.box').empty();
 	$('#0').append(player1);
 	$('#20').append(player2);
 	$('.winBox').hide();
+}
+
+$('.btn').click(function() {
+	gameReset();
 });
 
-
-});	
+});
