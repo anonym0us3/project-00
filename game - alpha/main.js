@@ -4,7 +4,7 @@ $(window).ready( function (event) {
   
   // your code here
 
-//Declaring variables: players' positions & character "icons" or text
+//Declaring variables: players' initial positions & character "icons" or text
 var p1Location = 0;
 var p2Location = 20;
 var player1 = '<img src = img/bran.jpg>';
