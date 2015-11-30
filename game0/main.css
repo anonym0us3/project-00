@@ -1,0 +1,26 @@
+body {
+	background-image: url(img/background.jpg);
+}
+
+.container {
+	position: relative;
+}
+
+.playerLocation {
+	position: absolute;
+}
+
+#playArea {
+	margin-top: 180px;
+}
+
+.winBox {
+	display: none;
+	padding-top: 50px;
+	font-size: 50px;
+	font-style: bold;
+}
+
+canvas {
+	border: 1px solid black;
+}
