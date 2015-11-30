@@ -1,26 +1,30 @@
-body {
-	background-image: url(img/background.jpg);
+h1 {
+	font-family: Old Standard TT;
+	font-size: 63px;
+	font-weight: bold;
+	font-style: italic;
 }
 
-.container {
-	position: relative;
+.col-xs-12 {
+
+	height: 84px;
+	border-style: dotted solid dotted;
+	border-width: 5.25px;
+	border-color: purple;
 }
 
-.playerLocation {
+.btn {
+	margin-top: 42px;
+}
+
+.player {
+	padding-top: 21px;
+	font-size: 42px;
 	position: absolute;
 }
 
-#playArea {
-	margin-top: 180px;
-}
-
 .winBox {
-	display: none;
-	padding-top: 50px;
-	font-size: 50px;
-	font-style: bold;
+	font-family: Old Standard TT;
+	font-size: 42px;
 }
 
-canvas {
-	border: 1px solid black;
-}
