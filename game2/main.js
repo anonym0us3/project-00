@@ -5,7 +5,7 @@ $(window).ready( function (event) {
   // your code here
 
 //Creating playspace for mountain
-function draw() {
+// function draw() {
 	var canvas = $('.canvas')[0];
 	if (canvas.getContext) {
 		var ctx = canvas.getContext('2d');
@@ -15,17 +15,23 @@ function draw() {
 		ctx.lineTo(1200,600);
 		ctx.fillStyle = "orange";
 		ctx.fill();
+		ctx.fillRect(player1X = 0,player1Y = 550,20,20);
+		ctx.fillRect(player2X = 1150,player2Y = 550,20,20);
+
 	}
-}
-draw();
+
+// }
+
+// draw();
 
 //Declaring variables: players' initial positions & character "icons" or text
-var p1Location = 0;
-var p2Location = 20;
-var player1 = "X";
+var p1Location = (0,500);
+var p2Location = (1200,550);
+var player1 = img/climber1.jpg;
 var player2 = "Y";
 
 //Starting positions
+
 
 
 //Movement logic: 'Q' key moves player1; '/' key moves player2
@@ -48,8 +54,8 @@ $(window).keydown(function (e) {
 //'Reset button logic: sets starting positions back to initial values , clears board of ' +
 //'player icons, resets players character text/icons (if applicable) to starting positions'
 $('.btn').on("click", function handleClick() {
-	p1Location = 0;
-	p2Location = 20;
+	p1Location = (0,600);
+	p2Location = (1200,600);
 	$('.winBox').hide();
 });
 

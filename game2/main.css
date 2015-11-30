@@ -6,13 +6,12 @@ body {
 	position: relative;
 }
 
-#playArea {
-	margin-top: 180px;
-	color: black;
+.playerLocation {
+	position: absolute;
 }
 
-canvas {
-	color: yellow;
+#playArea {
+	margin-top: 180px;
 }
 
 .winBox {
@@ -20,4 +19,8 @@ canvas {
 	padding-top: 50px;
 	font-size: 50px;
 	font-style: bold;
+}
+
+canvas {
+	border: 1px solid black;
 }
