@@ -12,68 +12,21 @@
 
   <!-- custom styles -->
   <link rel="stylesheet" href="main.css">
-  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
-  <!--  Tried to link href to the favicon stored locally in my /img/ folder but no dice, so uploaded to imgur instead--> 
-  <link href="img/favicon.png" rel="icon" type="image/png" />
-
-  <title>Game Alpha</title>
+  <title>Mountain Climbers</title>
 </head> 
 
-<!-- Attempted to get background with translucency/opacity, and have the game board above it, but no luck, not even with z-index -->
-<!-- link href=~/img/stark_background.png -->
-<!-- <body background="http://i.imgur.com/o7AUq5r.jpg" id="background"> -->
+<body>
+  <div class="container text-center">
   
-  <div class="container text-center" id="bodyContent">
-    <div class="header">
-      <div class="col-md-12">
-        <h1>Winter is Coming</h1>
-        <hr>
-      </div>
-    </div>
+    <canvas class="canvas" id="playArea" width="1200" height="600"></canvas>
+  
+  <div class="p1Location"
 
-    <h3>Help a brother survive!</h2>
 
-    <div class="row"> 
 
-      <!-- a column represents our game board -->
-      <div class="col-md-12" id="board">
 
-        <!-- you can nest rows inside of columns! -->
-        <!-- our board has 3 rows, each with 3 columns inside -->
-        <div class="row" id="row">
-          <p id="p1">Player 1</p>
-          <div class="col-xs-1 box" id="0"></div>
-          <div class="col-xs-1 box" id="1"></div>
-          <div class="col-xs-1 box" id="2"></div>
-          <div class="col-xs-1 box" id="3"></div>
-          <div class="col-xs-1 box" id="4"></div>
-          <div class="col-xs-1 box" id="5"></div>
-          <div class="col-xs-1 box" id="6"></div>
-          <div class="col-xs-1 box" id="7"></div>
-          <div class="col-xs-1 box" id="8"></div>
-          <div class="col-xs-1 box" id="9"></div>
-          <div class="col-xs-1 box" id="10"></div>
-          <div class="col-xs-1 box" id="11"></div>
-        </div>
-
-        <div class="row" id="row">
-          <p id="p2">Player 2</p>
-          <div class="col-xs-1 box" id="20"></div>
-          <div class="col-xs-1 box" id="21"></div>
-          <div class="col-xs-1 box" id="22"></div>
-          <div class="col-xs-1 box" id="23"></div>
-          <div class="col-xs-1 box" id="24"></div>
-          <div class="col-xs-1 box" id="25"></div>
-          <div class="col-xs-1 box" id="26"></div>
-          <div class="col-xs-1 box" id="27"></div>
-          <div class="col-xs-1 box" id="28"></div>
-          <div class="col-xs-1 box" id="29"></div>
-          <div class="col-xs-1 box" id="30"></div>
-          <div class="col-xs-1 box" id="31"></div>
-        </div>
-      </div>
-    </div>
+  </div>
 
     <div class = "winBox">
     </div>
@@ -81,10 +34,6 @@
     <div class="btn">
       <button>Reset</button>
     </div>
-
-
-    <h3>Player 1 moves with Q <br />
-    Player 2 moves with forward-slash ( / )</h3>
 
   </div>
   
@@ -95,4 +44,5 @@
   <script src="main.js"></script>
 
 </body>
+
 </html>

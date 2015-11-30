@@ -1,32 +1,18 @@
-#board {
-  margin-top: 10px;
+body {
+	background-image: url(img/background.jpg);
 }
 
-h1 {
-	font-family: Lobster;
-	font-size: 50px;
+.container {
+	position: relative;
 }
 
-h2 {
-	margin: 50px 0px 50px 0px;
-
+#playArea {
+	margin-top: 180px;
+	color: black;
 }
 
-.box {
-  border: 1px solid black;
-  height: 100px;
-  padding-top: 10px;
-}
-
-.btn {
-	margin-top: 25px;
-}
-
-p {
-	font-weight: bold;
-	font-size: 18px;
-	margin-top: 50px;
-	text-align: left;
+canvas {
+	color: yellow;
 }
 
 .winBox {

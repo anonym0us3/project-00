@@ -7,11 +7,12 @@ Technologies Used
 * HTML5
 * CSS3
 * JavaScript
+* BootStrap
 * jQuery
 
 Existing Features
 
-* 2 player racing
+* 2-player racing
 * background image
 * reset button
 
